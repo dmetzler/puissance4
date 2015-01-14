@@ -10,7 +10,7 @@
 
 
   <artifactId>puissance4-core</artifactId>
-  <name>ISEN JEE :: Core model</name>
+  <name>Puissance 4 :: Core model</name>
   <packaging>jar</packaging>
 
   <dependencies>
