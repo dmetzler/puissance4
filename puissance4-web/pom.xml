@@ -9,7 +9,7 @@
 
   <artifactId>puissance4-web</artifactId>
   <packaging>war</packaging>
-  <name>Puissance 4 :: web front</name>
+  <name>Puissance 4 :: web</name>
 
   <build>
     <finalName>puissance4</finalName>
@@ -63,22 +63,38 @@
       <groupId>org.dmetzler.isen.puissance4</groupId>
       <artifactId>puissance4-core</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.dmetzler.isen.puissance4</groupId>
       <artifactId>puissance4-jpa</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.dmetzler.isen.puissance4</groupId>
+      <artifactId>puissance4-rest</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>javax</groupId>
       <artifactId>javaee-web-api</artifactId>
     </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
+
+
     <dependency>
       <artifactId>commons-lang</artifactId>
       <groupId>commons-lang</groupId>
     </dependency>
+
+    <dependency>
+      <artifactId>commons-logging</artifactId>
+      <groupId>commons-logging</groupId>
+    </dependency>
+
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
