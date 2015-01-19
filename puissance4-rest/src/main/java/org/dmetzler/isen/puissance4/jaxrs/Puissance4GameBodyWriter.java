@@ -67,7 +67,7 @@ public class Puissance4GameBodyWriter implements
 
             jg.writeFieldName("playAction");
             jg.writeStartObject();
-            jg.writeStringField("method", "GET");
+            jg.writeStringField("method", "POST");
             jg.writeStringField("url", info.getAbsolutePath()+"/" + i);
             jg.writeEndObject();
 

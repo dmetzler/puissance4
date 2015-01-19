@@ -3,6 +3,7 @@ package org.dmetzler.isen.puissance4.jaxrs;
 import java.io.IOException;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Context;
@@ -33,7 +34,7 @@ public class Puissance4GameResource {
     }
 
 
-    @GET
+    @POST
     @Path("{colNumber}")
     public Response playColumn(@PathParam("colNumber") int col) throws IOException {
         game.play(game.getCurrentTurn(), col);
