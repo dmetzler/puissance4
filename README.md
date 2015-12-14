@@ -18,4 +18,8 @@ This is a simple JEE6 power4 game made to illustrate various aspects of JEE :
 	$ cd puissance4-web
 	$ mvn glassfish:run
 
+It launches a Glassfish server on port 9090, so your application can be browsed at : 
+
+	http://localhost:9090/puissance4-web/
+
 Or copy the `puissance4-web/target/puissance4.war` in your application server's webapp directory.
